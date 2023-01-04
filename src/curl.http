@@ -12,14 +12,14 @@ GET http://localhost:8080/user
 GET http://localhost:8080/locations
 
 ### GetSingleUser
-GET http://localhost:8080/user/2c25cc2f-ddb3-4a01-95da-565416ba53a0
+GET http://localhost:8080/user/26cc811e-9da3-4308-9284-0aa6480008ad
 
 ### UpdateUser
-PUT http://localhost:8080/user/990a10dd-5689-42c7-8530-4304e8952c98
+PUT http://localhost:8080/user/26cc811e-9da3-4308-9284-0aa6480008ad
 Content-Type: application/json
 Accept: application/json
 
 {"username": "johnny", "age": "31"}
 
 ### DeleteUser
-DELETE http://localhost:8080/user/990a10dd-5689-42c7-8530-4304e8952c98
+DELETE http://localhost:8080/user/26cc811e-9da3-4308-9284-0aa6480008ad
