@@ -1,6 +1,5 @@
 package com.vxcompany.graphstoreapi;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -29,7 +28,7 @@ public class GraphStoreControllerTest {
     private GraphStoreController graphStoreController;
 
     @BeforeEach
-    public void setup() throws JSONException {
+    public void setup() {
         mvc = MockMvcBuilders.standaloneSetup(graphStoreController)
                 .build();
     }
