@@ -1,5 +1,5 @@
 # graph-store-api
-Java port of https://github.com/appie2go/Testing.GraphStoreApi
+> Java port of https://github.com/appie2go/Testing.GraphStoreApi
 
 This is an API that allows you to store any graph you like. This project is built for testing/demo purposes only.
 
