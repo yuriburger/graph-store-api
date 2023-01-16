@@ -31,8 +31,9 @@ public class GraphStoreController {
        return store.Get(endpointAddress, id).toString();
     }
 
-    @RequestMapping(value = "/{endpointaddress}", method = RequestMethod.POST, headers="Accept=*/*")
+    @RequestMapping(value = "/{endpointaddress}", method = RequestMethod.POST, headers="Accept=*/*", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
+    @ResponseStatus(HttpStatus.CREATED)
     public ResponseEntity Create(@RequestBody String body, @PathVariable("endpointaddress") String endpointAddress) {
 
         JSONObject jsonObject = new JSONObject(body);
